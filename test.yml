@@ -2,8 +2,4 @@
   become: yes
   become_method: sudo
   roles:
-<<<<<<< HEAD
     - role: webofmars.dummy
-=======
-    - role: webofmars.dummy
->>>>>>> 2f0c9d6 (first commit)
