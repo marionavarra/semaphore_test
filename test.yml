@@ -6,3 +6,7 @@
   - name: Print debug message
     debug:
       msg: Hello, world!
+  - name: Install something
+    ansible.builtin.dnf:
+      name: net-tools
+      state: latest
